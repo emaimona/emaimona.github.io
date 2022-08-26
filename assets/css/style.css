@@ -121,3 +121,7 @@ ul {
     font-size: 1.7rem;
     cursor: pointer;
 }
+
+.show-menu {
+    top: 0;
+}
