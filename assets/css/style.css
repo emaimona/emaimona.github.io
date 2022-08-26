@@ -37,6 +37,9 @@ ul {
     font-weight: 600px;
 }
 
+.home, .projects, .aboutme, .contact {
+    height: 100vh;
+}
 
 /* LAYOUT ========================> */
 .container {
