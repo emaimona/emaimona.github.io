@@ -44,3 +44,15 @@ function ScrollActive() {
 }
 
 window.addEventListener('scroll', ScrollActive)
+
+
+// CHANGE THE BACKGROUND ON SCROLL
+function changeHeaderColor() {
+    const nav = document.getElementById('header')
+
+    if (this.scrollY >= 200)
+        nav.classList.add('scroll-header')
+    else
+        nav.classList.remove('scroll-header')
+}
+window.addEventListener('scroll', changeHeaderColor)
