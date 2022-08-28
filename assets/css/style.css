@@ -70,13 +70,25 @@ ul {
     align-items: center;
 }
 
-.logo, .nav-open {
+.logo {
+    color: rgb(60 54 36);
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: .3s;
+    letter-spacing: .2rem;
+}
+
+.logo::hover {
+    color: #ce0f0f;
+}
+
+.nav-open {
     color: #000;
     font-weight: 500;
     transition: .3s;
 }
 
-.logo:hover, .nav-open:hover {
+.nav-open:hover {
     color: #ce0f0f;
 }
 
@@ -238,7 +250,12 @@ ul {
         margin-bottom: 0;
     }
 
-    .nav-link, .logo {
+    .nav-link {
+        font-size: 1rem;
+        color: #000;
+    }
+
+    .logo {
         font-size: 1rem;
         color: #000;
     }
