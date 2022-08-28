@@ -27,7 +27,7 @@ ul {
 
 /* REUSABLE CSS CLASSES ==================> */
 .section {
-     padding: 4.5rem 0 2rem;
+     padding-top: 3rem;
 }
 
 .section-title {
@@ -169,13 +169,21 @@ ul {
 
 /* HOME SECTION  ======================> */
 .home-data {
-    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    margin-top: 7rem;
+    margin-top: 1.5rem;
+}
+
+.home-image {
+    text-align: center;
+}
+
+.home-image img {
+    height: 300px;
+    width: 300px;
 }
 
 .home-data h3 {
