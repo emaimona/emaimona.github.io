@@ -97,7 +97,7 @@ ul {
     cursor: pointer;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:802px) {
     .main-nav {
         position: fixed;
         top: -100%;
@@ -110,6 +110,7 @@ ul {
         box-shadow: 0 0 4px rgba(0,0,0,.4);
         z-index: 99999;
     }
+
 }
 
 .nav-item {
@@ -224,10 +225,16 @@ ul {
         font-size: 4rem;
         line-height: 5rem;
      }
+
+
+    .logo {
+        font-size: 1.2rem;
+        letter-spacing: .2rem;
+    }
 } 
 
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 802px) {
     body {
         margin: 0;
     }
@@ -256,8 +263,7 @@ ul {
     }
 
     .logo {
-        font-size: 1rem;
-        color: #000;
+        font-size: 1.3rem;
     }
 
     .nav-link:hover {
@@ -300,5 +306,8 @@ ul {
     .container {
         margin-left: auto;
         margin-right: auto;
+    }
+    .logo {
+        font-size: 1.5rem;
     }
 }
