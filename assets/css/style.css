@@ -24,7 +24,31 @@ ul {
     list-style: none;
 }
 
-/* S ICONS =========================> */
+/* CONTACTS */
+.contact-container p {
+    font-size: 1.2rem;
+}
+
+
+
+/* SET ICONS =========================> */
+.social {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social i {
+    margin: 20px;
+    font-size: 3rem;
+    transition: font-size .3s ease-in;
+}
+
+.social i:hover {
+    font-size: 3.5rem;
+}
+
+
 
 
 
@@ -49,6 +73,7 @@ ul {
     max-width: 968px;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+    text-align: center;
 }
 
 
