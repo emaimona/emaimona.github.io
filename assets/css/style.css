@@ -49,6 +49,13 @@ ul {
 }
 
 
+/* FOOTER  */
+footer {
+    margin: 2px;
+    padding: 4px;
+    border-top: solid rgba(235, 212, 212, 0.3) 2px;
+}
+
 
 
 
