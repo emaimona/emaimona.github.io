@@ -14,6 +14,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 3rem 0 0 0;
     font-size: .938rem; 
+    width: 100wh;
 }
 
 a {
@@ -33,16 +34,17 @@ ul {
 
 /* FORM =======================> */
 .form {
-    margin: 1.5rem auto 1.5rem auto;
-    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 500px;
+    display: flex;
 }
 
 form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
-    padding: 12px;
 }
 
 form > * {
@@ -53,7 +55,8 @@ form > * {
 }
 
 form input, form textarea {
-    padding: .7rem;
+    box-sizing: content-box;
+    padding: .7rem 0 .3rem 0.7rem;
     border: solid .1px rgb(85 26 139);
 }
 
