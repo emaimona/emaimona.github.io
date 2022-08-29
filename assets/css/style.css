@@ -42,7 +42,7 @@ form {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 1rem;
+    padding: 12px;
 }
 
 form > * {
