@@ -33,14 +33,16 @@ ul {
 
 /* FORM =======================> */
 .form {
-    margin: 1.5rem 0 1.5rem 0;
+    margin: 1.5rem auto 1.5rem auto;
     margin-bottom: 1.5rem;
+    max-width: 500px;
 }
 
 form {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 1rem;
 }
 
 form > * {
@@ -93,9 +95,17 @@ form button {
 
 /* FOOTER  */
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50vh;
     margin: 20px 2px 2px 2px;
     padding: 4px;
-    border-top: solid rgba(235, 212, 212, 0.3) 2px;
+}
+
+footer p {
+    display: inline-block;
+    border-top: solid rgba(235, 212, 212, 0.8) 2px;
 }
 
 
