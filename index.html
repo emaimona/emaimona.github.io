@@ -24,7 +24,7 @@
                 <ul class="nav-list">
                     <li class="nav-item"><a href="#home" class="nav-link active-link">Home</a></li>
                     <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="#aboutme" class="nav-link">About me</a></li>
+                    <li style="display:none" class="nav-item"><a href="#aboutme" class="nav-link">About me</a></li>
                     <li style="display:none" class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
                     <li class="nav-item"><a href="#contact" class="nav-link btn">Contact</a></li>
                     
@@ -57,9 +57,10 @@
             </div>
         </section>
 
-        <section class="section aboutme" id="aboutme">
+        <section style="display:none" class="section aboutme" id="aboutme">
             <div class="container aboutme-container">
                 <h2 class="section-title">About me</h2>
+
             </div>
         </section>
 
@@ -85,7 +86,7 @@
                         <input type="email" name="email" id="email" placeholder="Email address" required>
 
                         <label for="message">Message</label>
-                        <textarea name="message" id="message" placeholder="Write your message here!" cols="30" rows="10"></textarea>
+                        <textarea name="message" id="message" placeholder="Write your message here!" rows="10"></textarea>
                         
                         <input type="hidden" name="_next" value="https://emaimona.github.io/success">
 
@@ -97,7 +98,7 @@
         </section>
     </main>
 
-    <footer class="container">
+    <footer class="">
         <p>&copy; 2022</p>
     </footer>
     
