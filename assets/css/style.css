@@ -86,7 +86,7 @@ form button {
     border-radius: 30px;
     width: 80%;
     max-width: 300px;
-
+    cursor: pointer;
 }
 
 
