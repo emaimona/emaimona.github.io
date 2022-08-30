@@ -37,50 +37,56 @@ ul {
     margin-left: auto;
     margin-right: auto;
     width: inherit;
+    box-sizing: border-box;
+    padding: 0;
 }
 
 
 
 form {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-form > * {
-    font-family: 'Poppins', sans-serif;
+    display: block;
+    width: 100%;
+    
     font-size: .938rem; 
     border-radius: 3px;
+    max-width: 450px;
+    margin: auto;
 }
 
+form * {
+    display: block;
+    width: 100%;
+}
+
+
 form input, form textarea {
+    font-family: inherit;
+    font-size: inherit;
+    box-sizing: border-box;
     padding: .7rem;
     border: solid .1px rgb(85 26 139);
+
 }
 
 form label {
     text-align: left;
-    align-self: flex-start;;
     font-weight: 600;
     margin-top: 1.3rem;
     margin-bottom: .2rem;
 }
 
 form button {
+    box-sizing: border-box;
     background:rgb(85 26 139);
     border-color:#d1d1d1;
     color: white;
-    margin-top: 1.3rem;
+    margin: 1.3rem auto 0 auto;
     font-size: 1.3rem;
     padding: 12px 20px;
     border-radius: 30px;
-    width: 20vw;
-    min-width: 200px;
-    max-width: 450px;
-    align-self: center;
+    width: 80%;
+    max-width: 300px;
+
 }
 
 
