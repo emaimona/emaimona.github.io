@@ -65,6 +65,7 @@ form input, form textarea {
     box-sizing: border-box;
     padding: .7rem;
     border: solid .1px rgb(85 26 139);
+    border-radius: 10px;
 
 }
 
@@ -87,6 +88,10 @@ form button {
     width: 80%;
     max-width: 300px;
     cursor: pointer;
+}
+
+form button::hover {
+
 }
 
 
