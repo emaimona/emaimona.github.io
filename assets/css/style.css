@@ -76,9 +76,9 @@ form label {
     margin-bottom: .2rem;
 }
 
-form button {
+.form-btn {
     box-sizing: border-box;
-    background:rgb(85 26 139);
+    background:rgb(85, 26, 139);
     border-color:#d1d1d1;
     color: white;
     margin: 1.3rem auto 0 auto;
@@ -88,10 +88,11 @@ form button {
     width: 80%;
     max-width: 300px;
     cursor: pointer;
+    transition: .3s;
 }
 
-form button::hover {
-
+.form-btn:hover {
+    background:rgba(85, 26, 139, .8);
 }
 
 
