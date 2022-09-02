@@ -244,6 +244,7 @@ footer p {
     color: #000;
     padding: 12px 20px;
     border-radius: 30px;
+    transition: .3s;
 }
 
 .nav-close {
@@ -386,6 +387,11 @@ footer p {
     .btn {
         background: #ce0f0f;
         color: #fff;
+    }
+
+    .btn:hover {
+        color: #fff;
+        filter: brightness(.9);
     }
 
 
