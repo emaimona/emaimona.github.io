@@ -32,6 +32,26 @@ ul {
 
 
 
+/* PREVENT OVERLAY OF CONTENT ==============> */
+@media screen and (max-width: 500px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .contact, .aboutme, .main {
+        color: red;
+        display: inline-block !important;
+    }
+
+    .footer {
+        display: flex !important;
+        align-content: flex-end;
+    }
+}
+
+
 /* FORM =======================> */
 .form {
     margin-left: auto;
@@ -343,7 +363,6 @@ footer p {
         font-size: 4rem;
         line-height: 5rem;
      }
-
 
     .logo {
         font-size: 1.2rem;
