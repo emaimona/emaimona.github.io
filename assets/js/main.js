@@ -36,8 +36,15 @@ function ScrollActive() {
          sectionId = section.getAttribute('id')
 
          if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+            if (sectionId == 'contact')
+                document.querySelector('.main-nav a[href*=' + sectionId + ']').classList.add('active-link-contact') 
+            
             document.querySelector('.main-nav a[href*=' + sectionId + ']').classList.add('active-link')
+            
          } else {
+            if (sectionId == 'contact')
+                document.querySelector('.main-nav a[href*=' + sectionId + ']').classList.remove('active-link-contact') 
+            
             document.querySelector('.main-nav a[href*=' + sectionId + ']').classList.remove('active-link')
          }
     })
