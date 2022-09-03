@@ -31,7 +31,7 @@ const sections = document.querySelectorAll("section[id")
 function ScrollActive() {
     const scrollY = window.pageYOffset;
     sections.forEach((section)=> {
-         const sectionHeight = section.offsetHeight;
+         const sectionHeight = section.offsetHeight ;
          const sectionTop =  section.offsetTop - 50;
          sectionId = section.getAttribute('id')
 
