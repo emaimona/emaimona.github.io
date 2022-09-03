@@ -170,6 +170,27 @@ footer p {
 }
 
 
+/* BUTTONS ===================> */
+.resume-btn {
+    display: inline-block;
+    background: white;
+    border: solid 1px rgb(85, 26, 139);
+    color: rgb(85, 26, 139);
+    margin-top: 10px;
+    font-size: 1rem;
+    padding: 12px 20px;
+    border-radius: 30px;
+    width: 80%;
+    max-width: 300px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.resume-btn:hover {
+    color: white;
+    background: rgb(85, 26, 139);
+}
+
 
 
 /* HEADER ==========================? */
