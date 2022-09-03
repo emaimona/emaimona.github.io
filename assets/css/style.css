@@ -11,6 +11,11 @@ html {
 }
 
 body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    text-align: center;
     font-family: 'Poppins', sans-serif;
     margin: 3rem 0 0 0;
     font-size: .938rem; 
@@ -25,10 +30,12 @@ ul {
     list-style: none;
 }
 
+
 /* CONTACTS */
 .contact-container p {
     font-size: 1.2rem;
 }
+
 
 
 
@@ -136,11 +143,23 @@ footer p {
 
 
 /* REUSABLE CSS CLASSES ==================> */
-.section {
+.section:not(:first-child) {
      padding-top: 3rem;
+
+    margin-top: 16rem;
+    display: inline-block;
+
+    width: 100%;
+}
+
+.home {
+    padding-top: 3rem;
+    width: 100%;
 }
 
 .section-title {
+    margin-top: 15px;
+
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: 1.5rem;
@@ -151,6 +170,8 @@ footer p {
     height: 130vh;
 }
 
+
+
 /* LAYOUT ========================> */
 .container {
     max-width: 968px;
@@ -159,6 +180,27 @@ footer p {
     text-align: center;
 }
 
+
+/* BUTTONS ===================> */
+.resume-btn {
+    display: inline-block;
+    background: white;
+    border: solid 1px rgb(85, 26, 139);
+    color: rgb(85, 26, 139);
+    margin-top: 10px;
+    font-size: 1rem;
+    padding: 12px 20px;
+    border-radius: 30px;
+    width: 80%;
+    max-width: 300px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.resume-btn:hover {
+    color: white;
+    background: rgb(85, 26, 139);
+}
 
 
 
@@ -221,6 +263,8 @@ footer p {
         box-shadow: 0 0 4px rgba(0,0,0,.4);
         z-index: 99999;
     }
+
+
 
 }
 
@@ -328,6 +372,7 @@ footer p {
     text-transform: uppercase;
     margin-bottom: .5em;
     margin-top: .4em;
+
 }
 
 
@@ -341,25 +386,30 @@ footer p {
      }
 
      .home-data h1 {
-        font-size: 4rem;
-        line-height: 5rem;
+        font-size: 3rem;
+        line-height: 3rem;
      }
-
 
     .logo {
         font-size: 1.2rem;
         letter-spacing: .2rem;
     }
+
+
 } 
 
 
-@media screen and (min-width: 802px) {
+@media screen and (min-width: 803px) {
     body {
         margin: 0;
     }
 
     .section {
         padding-top: 7rem;
+    }
+
+    .section-title {
+        margin-top: 45px;
     }
 
     .nav {
@@ -419,8 +469,6 @@ footer p {
     }
 
     .home-data h1 {
-        font-size: 5.5rem;
-        line-height: 6rem;
         font-weight: 700;
     }
 }
