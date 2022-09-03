@@ -65,6 +65,7 @@ form input, form textarea {
     box-sizing: border-box;
     padding: .7rem;
     border: solid .1px rgb(85 26 139);
+    background:rgb(244, 244, 244);
     border-radius: 10px;
 
 }
