@@ -14,6 +14,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+
     text-align: center;
     font-family: 'Poppins', sans-serif;
     margin: 3rem 0 0 0;
@@ -29,9 +30,7 @@ ul {
     list-style: none;
 }
 
-.home {
-    padding-top: 3rem;
-}
+
 /* CONTACTS */
 .contact-container p {
     font-size: 1.2rem;
@@ -146,11 +145,20 @@ footer p {
 .section:not(:first-child) {
      padding-top: 3rem;
 
-     margin-top: 16rem;
-     display: inline-block;
+    margin-top: 16rem;
+    display: inline-block;
+
+    width: 100%;
+}
+
+.home {
+    padding-top: 3rem;
+    width: 100%;
 }
 
 .section-title {
+    margin-top: 15px;
+
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: 1.5rem;
@@ -160,6 +168,8 @@ footer p {
 .home, .projects, .aboutme, .contact {
     height: 130vh;
 }
+
+
 
 /* LAYOUT ========================> */
 .container {
@@ -375,8 +385,8 @@ footer p {
      }
 
      .home-data h1 {
-        font-size: 4rem;
-        line-height: 5rem;
+        font-size: 3rem;
+        line-height: 3rem;
      }
 
     .logo {
@@ -395,6 +405,10 @@ footer p {
 
     .section {
         padding-top: 7rem;
+    }
+
+    .section-title {
+        margin-top: 45px;
     }
 
     .nav {
@@ -454,8 +468,6 @@ footer p {
     }
 
     .home-data h1 {
-        font-size: 5.5rem;
-        line-height: 6rem;
         font-weight: 700;
     }
 }
