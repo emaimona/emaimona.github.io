@@ -11,6 +11,10 @@ html {
 }
 
 body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
     font-family: 'Poppins', sans-serif;
     margin: 3rem 0 0 0;
     font-size: .938rem; 
@@ -25,32 +29,15 @@ ul {
     list-style: none;
 }
 
+.home {
+    padding-top: 3rem;
+}
 /* CONTACTS */
 .contact-container p {
     font-size: 1.2rem;
 }
 
 
-
-/* PREVENT OVERLAY OF CONTENT ==============> */
-@media screen and (max-width: 500px) {
-    body {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-
-    .contact, .aboutme, .main {
-        color: red;
-        display: inline-block !important;
-        margin: auto;
-    }
-
-    .footer {
-        display: flex !important;
-        
-    }
-}
 
 
 /* FORM =======================> */
@@ -156,8 +143,11 @@ footer p {
 
 
 /* REUSABLE CSS CLASSES ==================> */
-.section {
+.section:not(:first-child) {
      padding-top: 3rem;
+
+     margin-top: 16rem;
+     display: inline-block;
 }
 
 .section-title {
@@ -241,6 +231,8 @@ footer p {
         box-shadow: 0 0 4px rgba(0,0,0,.4);
         z-index: 99999;
     }
+
+
 
 }
 
@@ -375,7 +367,7 @@ footer p {
 } 
 
 
-@media screen and (min-width: 802px) {
+@media screen and (min-width: 803px) {
     body {
         margin: 0;
     }
