@@ -39,10 +39,55 @@ ul {
 
 
 /* PROJECTS ===============> */
-.projects {
-    background:rgb(244, 244, 244)
+.projects-grid {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;   
 }
 
+.item {
+    border-radius: 9px;
+    box-shadow: 0 0 12px 12px rgb(0, 0, 0, .1);
+    background: white;
+    padding: 20px;
+    max-width: 400px;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+    margin: 18px;
+}
+
+.item a {
+    color: inherit;
+}
+
+
+.item p {
+    margin-top: .4rem;
+    font-size: .8rem;
+}
+
+.item:hover {
+    transform: translateY(12px);
+}
+
+/* makes the project div auto adjustable */
+.projects {
+    height: auto;
+    background:rgb(244, 244, 244);
+    padding-bottom: 100px;
+}
+
+.projects img {
+    height: 30vh;
+    width: 100%;
+}
+
+.projects-container {
+    box-sizing: border-box;
+    height: 100;
+}
 
 
 
@@ -81,7 +126,6 @@ form input, form textarea {
     border: solid .1px rgb(85 26 139);
     background:rgb(244, 244, 244);
     border-radius: 10px;
-
 }
 
 form label {
@@ -150,6 +194,10 @@ footer p {
 
 
 /* REUSABLE CSS CLASSES ==================> */
+.hide {
+    display: none;
+}
+
 .section:not(:first-child) {
      padding-top: 3rem;
 
@@ -173,9 +221,10 @@ footer p {
     font-weight: 600px;
 }
 
-.home, .projects, .aboutme, .contact {
+.home,.aboutme, .contact {
     height: 130vh;
 }
+
 
 
 
