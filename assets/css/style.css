@@ -126,6 +126,7 @@ form input, form textarea {
     border: solid .1px rgb(85 26 139);
     background:rgb(244, 244, 244);
     border-radius: 10px;
+    resize: none;
 }
 
 form label {
